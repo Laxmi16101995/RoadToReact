@@ -1,0 +1,107 @@
+#title {
+  text-align: center;
+  margin: auto;
+  display: block;
+  background-color: #ffcc00;
+  border: 2px black solid;
+}
+#nav {
+  border: 1px rgb(229, 229, 219) solid;
+  margin-top: 2%;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  padding: 5px;
+  margin-bottom: 3%;
+}
+#home {
+  text-decoration: none;
+  color: rgb(130, 124, 124);
+  font-size: 15px;
+  font-weight: bolder;
+}
+#home:hover {
+  color: #161512;
+}
+#login_signup {
+  border: 0.5px rgb(197, 195, 195) solid;
+  gap: 15px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  padding: 5px;
+}
+#search {
+  max-width: max-content;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+#input {
+  border: 3px black solid;
+  font-size: 15px;
+  font-weight: bold;
+  padding-left: 5px;
+}
+#button,
+#Submit {
+  width: max-content;
+  margin: auto;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #ffcc00;
+  border-radius: 5px;
+  padding: 6px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 15%;
+}
+#map {
+  border: 0px black solid;
+  display: grid;
+  gap: 5px;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+#picture {
+  height: 350px;
+  border-radius: 50%;
+  margin-bottom: 10%;
+}
+
+#full {
+  width: 200px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  border: 0px black solid;
+  align-items: center;
+}
+#form > input,
+#full > input {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 0.5px rgb(197, 195, 195) solid;
+  background-color: #cdbf88;
+  font-weight: bold;
+  border-radius: 5px;
+}
+#Submit {
+  display: block;
+  margin: auto;
+}
+#details {
+  border: 0px rgb(197, 195, 195) solid;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
